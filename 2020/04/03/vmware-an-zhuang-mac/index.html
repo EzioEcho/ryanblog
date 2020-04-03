@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="contact, Ryan&#39;s Blog">
+    <meta name="keywords" content="VMware安装MAC, Ryan&#39;s Blog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>contact | Ryan&#39;s Blog</title>
+    <title>VMware安装MAC | Ryan&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -306,12 +306,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">contact</h1>
+                    <h1 class="description center-align post-title">VMware安装MAC</h1>
                 </div>
             </div>
         </div>
@@ -434,12 +434,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Linux%E5%AE%89%E8%A3%85/">
+                                <span class="chip bg-color">Linux安装</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Linux/" class="post-category">
+                                Linux
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -448,21 +461,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-02
+                    2020-04-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-02
+                    2020-04-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    0
+                    807
                 </div>
                 
 
@@ -480,7 +493,13 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h1 id="VMware安装MAC"><a href="#VMware安装MAC" class="headerlink" title="VMware安装MAC"></a>VMware安装MAC</h1><p><strong>本次向大家介绍的是最新发布的macOS.Catalina.10.15.4</strong></p>
+<h2 id="1-刻录安装U盘"><a href="#1-刻录安装U盘" class="headerlink" title="1. 刻录安装U盘"></a>1. 刻录安装U盘</h2><p>首先我们准备一个大于16G的U盘<br>然后使用TransMac工具进行写入我们下载好的镜像文件<br>打开工具，打开我们下载好的镜像文件<br>然后选择启动–&gt;写入硬盘映像<br><img src="https://i.loli.net/2020/04/03/XMDKPdxRyeEnGuo.png" alt=""><br>写入方式我们要选则RAW<br><img src="https://i.loli.net/2020/04/03/WF459hJX3lzD1rL.png" alt=""><br>然后点击写入<br><img src="https://i.loli.net/2020/04/03/iOX13yLaqr6nkeH.png" alt=""><br><img src="https://i.loli.net/2020/04/03/dneuOcphPVwY7yW.png" alt=""></p>
+<h2 id="2-VMware打补丁"><a href="#2-VMware打补丁" class="headerlink" title="2.VMware打补丁"></a>2.VMware打补丁</h2><p>我们打开虚拟机，点击新建虚拟机，然后下一步，进行到选择系统的时候会发现没有我们要的MACOS系统<br><img src="https://i.loli.net/2020/04/03/PYVsJTg7cEBk8O1.png" alt=""><br>这时候我们就要打上苹果系统的补丁了，把下载的MK-Unlocker-VM15.5文件夹拷贝到wmware所在文件夹，然后打开文件夹，点击<strong>win-install.cmd</strong><br><font color=red>!!!关闭杀毒软件再进行，以防误杀导致不成功</font><br><img src="https://i.loli.net/2020/04/03/N5Apvxzh3m7OWEK.png" alt="1585837266699.png"><br>再次打开VMware，点击新建虚拟机，下一步到选择操作系统，就会发现多处一项Apple MAC OS X(M)<br><img src="https://i.loli.net/2020/04/03/bc9g8NdE6kYzptx.png" alt=""><br>至此我们补丁已经打好可以进行下一步了</p>
+<h2 id="3-设置虚拟机U盘启动"><a href="#3-设置虚拟机U盘启动" class="headerlink" title="3.设置虚拟机U盘启动"></a>3.设置虚拟机U盘启动</h2><h4 id="3-1-点击新建虚拟机"><a href="#3-1-点击新建虚拟机" class="headerlink" title="3.1 点击新建虚拟机"></a>3.1 点击新建虚拟机</h4><p>选择典型 –》 稍后安装操作系统 –》mac10.15 –》 文件路径自己定 –》 完成 –》 打开虚拟机设置<br>点击添加–》 选择硬盘 –》 下一步<br><img src="https://i.loli.net/2020/04/03/QdrYyJsT8nZB1U9.png" alt=""><br>选择使用物理磁盘<br><img src="https://i.loli.net/2020/04/03/LKEBzGWQgY9XTFl.png" alt=""><br>选择使用单个分区，U盘一般都是最后一个<br><img src="https://i.loli.net/2020/04/03/16VPX7vnzCudNa3.png" alt=""><br>下一步<br><img src="https://i.loli.net/2020/04/03/RYMaFiQJd8fzsLx.png" alt=""><br>选择Apple HFS,这个就是我们需要指定的安装盘<br>然后启动虚拟机<br><img src="https://i.loli.net/2020/04/03/V8yOBxeFTQ3gJwa.png" alt="1585885734208.png"><br>已经开始加载了<br>简体中文–》磁盘工具–》<br><img src="https://i.loli.net/2020/04/03/rcJfxIB7O8Shgu6.png" alt=""><br>我们可以看到第一块就是我们创建的虚拟机的硬盘<br>选中，然后点击抹掉<br><img src="https://i.loli.net/2020/04/03/QdtXrlWZJSHBxVy.png" alt=""><br>格式选择Mac OS 扩展日志式，点击抹掉<br>然后退回到上一步，选择安装macOS<br><img src="https://i.loli.net/2020/04/03/uUlJ8cjKIGtCw69.png" alt=""><br>选择我们刚才抹掉的那块磁盘点击安装<br>等安装结束一直下一步即可，然后设置账户和密码<br><img src="https://i.loli.net/2020/04/03/ge27N3BoKaUW6QD.png" alt=""><br><img src="https://i.loli.net/2020/04/03/3eZKu8XJUQRb1Iq.png" alt=""><br>然后就进入到主界面，但是我们发现这个窗口很小，这时候我们就该安装vmtoos扩展工具了<br>![1585888986855.png](<a href="https://i.loli.net/2020/04/03/i2AvPIyYNCVJruK.pn" target="_blank" rel="noopener">https://i.loli.net/2020/04/03/i2AvPIyYNCVJruK.pn</a><br>我们点击VMware自带的安装工具就会报错<br><img src="https://i.loli.net/2020/04/03/gp3yqjfMrmvJW7D.png" alt=""><br>解决方法：<br>这时候我们需要先把安装U盘给去掉<br>打开虚拟机设置，选择我们的硬盘2，点击移除<br><img src="https://i.loli.net/2020/04/03/y1IhoOae7lUEHWN.png" alt=""><br>然后打开虚拟机菜单栏<br>再次选择安装VMtools<br>打开虚拟机设置，CD选择使用ISO文件，选择我们下载的darwin.iso，把它放在VMware的安装目录<br>然后点击确定，然后重启一下<br><img src="https://i.loli.net/2020/04/03/hZGmYVT3EsWQvFb.png" alt=""><br>点击右下角的那个光盘小图标，点击链接，然后就会自动弹出安装界面了<br><img src="https://i.loli.net/2020/04/03/yQ9LVBhoulXMHf2.png" alt="1585890432020.png"><br>双击安装，然后默认下一步即可<br>安装的过程中我们需要打开系统偏好设置，先点击解锁，再点击允许，等待其安装完成即可，选择重新启动<br><img src="https://i.loli.net/2020/04/03/sZL9bqchMv3g7oB.png" alt="1585890497762.png"><br><img src="https://i.loli.net/2020/04/03/UqAoPFaKwSrcONf.png" alt="">)<img src="http://q75w0xexj.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%2813%29.png" alt=""></p>
+<p>教程到此结束，如果有什么问题，欢迎留言，关于物理机安装黑苹果我需要整理一下资料后面会出教程。感谢您阅读本教程！</p>
+<p>文中使用工具链接：<a href="https://pan.baidu.com/s/14IU7j3cJb_81ufPuYW7sTQ" target="_blank" rel="noopener">Ryan’s blog</a>  <font color=red>提取码：</font> iwbv</p>
+
             </div>
             <hr/>
 
@@ -505,7 +524,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.dongdong.live/contact/index.html">https://www.dongdong.live/contact/index.html</a>
+                    <a href="https://www.dongdong.live/2020/04/03/vmware-an-zhuang-mac/">https://www.dongdong.live/2020/04/03/vmware-an-zhuang-mac/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -542,7 +561,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Linux%E5%AE%89%E8%A3%85/">
+                                    <span class="chip bg-color">Linux安装</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -974,34 +997,47 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/contact/index.html">
+                <a href="/2020/04/03/vmware-an-zhuang-mac/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="contact">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="VMware安装MAC">
                         
-                        <span class="card-title">contact</span>
+                        <span class="card-title">VMware安装MAC</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            VMware安装MAC本次向大家介绍的是最新发布的macOS.Catalina.10.15.4
+1. 刻录安装U盘首先我们准备一个大于16G的U盘然后使用TransMac工具进行写入我们下载好的镜像文件打开工具，打开我们下载好的镜像文件然后
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-03
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Ryan
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Linux/" class="post-category">
+                                    Linux
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Linux%E5%AE%89%E8%A3%85/">
+                        <span class="chip bg-color">Linux安装</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1009,22 +1045,29 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/contact/index.html">
+                <a href="/2020/04/02/vmware-an-zhuang-archlinux/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="contact">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="VMware 安装 ArchLinux">
                         
-                        <span class="card-title">contact</span>
+                        <span class="card-title">VMware 安装 ArchLinux</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            VMware 安装 ArchLinux1.去官网下载ArchLinux下载链接：https://www.archlinux.org/download/
+2.新建虚拟机)
+
+下载的时候注意内核版本
+
+
+
+到这一步，先不要打开虚拟机，我们还要改
                         
                     </div>
                     <div class="publish-info">
@@ -1033,13 +1076,24 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Ryan
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Linux/" class="post-category">
+                                    Linux
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Linux%E5%AE%89%E8%A3%85/">
+                        <span class="chip bg-color">Linux安装</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>

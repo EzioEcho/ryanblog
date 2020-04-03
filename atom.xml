@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.dongdong.live/"/>
-  <updated>2020-04-02T10:10:55.241Z</updated>
+  <updated>2020-04-03T10:11:04.921Z</updated>
   <id>https://www.dongdong.live/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VMware安装MAC</title>
+    <link href="https://www.dongdong.live/2020/04/03/vmware-an-zhuang-mac/"/>
+    <id>https://www.dongdong.live/2020/04/03/vmware-an-zhuang-mac/</id>
+    <published>2020-04-03T06:36:15.000Z</published>
+    <updated>2020-04-03T10:11:04.921Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;VMware安装MAC&quot;&gt;&lt;a href=&quot;#VMware安装MAC&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="https://www.dongdong.live/categories/Linux/"/>
+    
+    
+      <category term="Linux安装" scheme="https://www.dongdong.live/tags/Linux%E5%AE%89%E8%A3%85/"/>
+    
+  </entry>
   
   <entry>
     <title>VMware 安装 ArchLinux</title>
